@@ -1,19 +1,14 @@
-# Copyright (c) 2017-2018, googlehosts members.
-# https://github.com/googlehosts/hosts
-# Last updated: 2018-02-24
-
-# This work is licensed under a modified HOSTS License.
-# https://github.com/googlehosts/hosts/raw/master/LICENSE
-
-# Modified Hosts Start
-
-# Localhost (DO NOT REMOVE) Start
-127.0.0.1	localhost
-::1	localhost
-::1	ip6-localhost
-::1	ip6-loopback
-# Localhost (DO NOT REMOVE) End
-
+# hpHosts - Ad and Tracking servers only
+#
+# The following are hosts in the hpHosts database with the ATS classification ONLY.
+# This file will NOT protect you against malicious domains
+#
+127.0.0.1 localhost #IPv4 localhost
+::1 localhost #IPv6 localhost
+#
+# AD SERVERS START HERE
+#
+127.0.0.1	005.free-counter.co.uk
 # Akamai Start
 23.201.102.89	a248.e.akamai.net
 184.28.188.186	static.ak.instagram.com
